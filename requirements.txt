@@ -1,0 +1,29 @@
+# ===== Core =====
+python-dotenv>=1.0.0        # โหลด .env
+pydantic>=2.6.0             # Config / Schema validation
+loguru>=0.7.2               # Logging สวย อ่านง่าย
+
+# ===== Data / Math =====
+numpy>=1.26.0
+pandas>=2.2.0
+
+# ===== Trading / Market =====
+MetaTrader5>=5.0.45         # เชื่อม MT5 (ถ้ายังไม่ใช้ MT5 ก็ไม่พัง)
+
+# ===== ML / AI =====
+scikit-learn>=1.4.0         # Regime / confidence model
+joblib>=1.3.2               # save / load ML models
+
+# ===== Analytics =====
+scipy>=1.12.0               # Monte Carlo / statistics
+
+# ===== API / Integration =====
+fastapi>=0.110.0            # API / mobile control
+uvicorn>=0.27.0             # รัน FastAPI
+requests>=2.31.0            # ส่ง LINE / Telegram
+
+# ===== UI (Windows) =====
+PySide6>=6.6.0              # Windows App GUI
+
+# ===== Optional (AI Explain / Chat) =====
+openai>=1.12.0              # ใช้เมื่อเปิด AI explain (ไม่ใช้ก็ไม่ต้องใส่ key)
